@@ -22,7 +22,7 @@ This project was developed with the aid of several third-party tools and referen
 
 ## No Code Copying
 
-To be absolutely clear: **no source code was copied from any of the tools listed above**. All code in this repository was written by Joshua-1248 based on functional understanding, analysis, and documentation reference.
+To be absolutely clear: **no source code was copied from any of the tools listed above**. All code in this repository was written based on functional understanding, analysis, and documentation reference.
 
 ## License
 
