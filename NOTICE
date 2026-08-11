@@ -1,0 +1,13 @@
+Max Payne Blender Plugin
+
+This project includes references to or is inspired by the following third-party
+works. No code from these works is included in this repository.
+
+- Ghidra (Apache License 2.0)
+- CFR (MIT License)
+- ldb-to-lvl (MIT License)
+- Blender 2.79 Python API (Blender Foundation)
+- Max Payne LVL file format (Remedy Entertainment)
+
+This project itself is licensed under the MIT License. See the LICENSE file
+for details.
