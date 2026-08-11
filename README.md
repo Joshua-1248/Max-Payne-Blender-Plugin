@@ -6,7 +6,7 @@ A Blender plugin for importing and exporting data from **Max Payne** and **Max P
 
 This plugin allows you to open Max Payne's proprietary file formats inside Blender, edit or view level geometry, animations, and skeletons, and export them back for use in the game.
 
-> **⚠️ Important:** This plugin requires you to own a legitimate copy of Max Payne or Max Payne 2 and have the official MaxED tool installed for certain workflows.
+> **⚠️ Important:** This tool is designed to be used with the official **MaxED** level editor. You should only use MaxED if you have obtained it through a legitimate copy of *Max Payne* or *Max Payne 2*, or from an official source. Furthermore, you will need a legitimate copy of the game to test any levels you create.
 
 ---
 
@@ -38,7 +38,7 @@ This plugin allows you to open Max Payne's proprietary file formats inside Blend
 ## Requirements
 
 - **Blender 2.79 or 4.0+** – This plugin works with Blender 2.79 and has been tested with Blender 4.0. Other versions may work but are not officially tested.
-- **MaxED (Max Payne Level Editor)** – Required for opening certain files in the game. You must own a legitimate copy of Max Payne or Max Payne 2 to legally use MaxED.
+- **MaxED (Max Payne Level Editor)** – Required for opening certain files in the game. You should only use MaxED if obtained from a legitimate source.
 - **Python 3.x** – Included with Blender.
 
 ---
