@@ -1,10 +1,10 @@
 # Max Payne Level Tools – Blender Plugin
 
-A Blender plugin for importing and exporting data from **Max Payne** and **Max Payne 2**, including **LVL**, **LDB**, **KFS**, **KF2**, and **SKD** files.
+A Blender plugin for importing data from **Max Payne** and **Max Payne 2**, including **LVL**, **LDB**, **KFS**, **KF2**, and **SKD** files.
 
-> **🚧 Work in Progress:** LVL import is currently **unfinished** and not yet functional. LVL export may also have limited support. All other formats (LDB, KFS, KF2, SKD) are fully or partially supported.
+> **🚧 Work in Progress:** LVL import is currently **unfinished** and not yet functional. All other formats (LDB, KFS, KF2, SKD) are fully or partially supported as **importers only**. Exporters are not currently available.
 
-This plugin allows you to open Max Payne's proprietary file formats inside Blender, edit or view level geometry, animations, and skeletons, and export them back for use in the game.
+This plugin allows you to open Max Payne's proprietary file formats inside Blender to view and edit level geometry, animations, and skeletons.
 
 > **⚠️ Important:** This tool is designed to be used with the official **MaxED** level editor. You should only use MaxED if you have obtained it through a legitimate copy of *Max Payne* or *Max Payne 2*, or from an official source. Furthermore, you will need a legitimate copy of the game to test any levels you create.
 
@@ -15,10 +15,12 @@ This plugin allows you to open Max Payne's proprietary file formats inside Blend
 | Format | Extension | Purpose | Status |
 | :--- | :--- | :--- | :--- |
 | **LVL** | `.lvl` | **Uncompiled maps** — editable level source files used for development and editing. | 🚧 **Unfinished** (import in progress) |
-| **LDB** | `.ldb` | **Compiled maps** — optimized level files ready for the game engine. | ✅ Supported |
-| **KFS** | `.kfs` | Keyframe animation files (character animations, object animations). | ✅ Supported |
-| **KF2** | `.kf2` | Updated keyframe animation format (used in Max Payne 2). | ✅ Supported |
-| **SKD** | `.skd` | Skeleton definition files (rigging and bone structures for characters). | ✅ Supported |
+| **LDB** | `.ldb` | **Compiled maps** — optimized level files ready for the game engine. | ✅ Importer available |
+| **KFS** | `.kfs` | Keyframe animation files (character animations, object animations). | ✅ Importer available |
+| **KF2** | `.kf2` | Updated keyframe animation format (used in Max Payne 2). | ✅ Importer available |
+| **SKD** | `.skd` | Skeleton definition files (rigging and bone structures for characters). | ✅ Importer available |
+
+> **Note:** Exporters are not currently available for any format. This tool is **import-only** at this time.
 
 ---
 
@@ -26,12 +28,11 @@ This plugin allows you to open Max Payne's proprietary file formats inside Blend
 
 - **Import LVL files** — 🚧 Currently **unfinished**; coming soon.
 - **Import LDB files** – Load compiled Max Payne and Max Payne 2 level geometry and object data into Blender. ✅
-- **Export LDB/LVL files** – Save Blender scenes back to Max Payne level formats (LVL export may be limited).
 - **Import KFS/KF2 animations** – Load character and object animations for preview or editing (both games). ✅
-- **Export KFS/KF2 animations** – Export Blender animations to Max Payne keyframe formats. ✅
 - **Import SKD skeletons** – Load character skeleton rigs for animation work (both games). ✅
-- **Export SKD skeletons** – Export Blender armatures to Max Payne skeleton format. ✅
 - **Preserves game data** – Maintains original structure, collision data, object placement, and animation data where supported.
+
+> **Note:** This tool currently only supports **importing**. Export functionality is not yet available.
 
 ---
 
