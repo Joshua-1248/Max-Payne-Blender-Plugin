@@ -1,4 +1,4 @@
-# Max Payne Level Tools – Blender Plugin
+# Max Payne Blender Plugin
 
 A Blender add-on plugin for importing data from **Max Payne** and **Max Payne 2**, including **LVL**, **LDB**, **KFS**, **KF2**, and **SKD** files.
 
