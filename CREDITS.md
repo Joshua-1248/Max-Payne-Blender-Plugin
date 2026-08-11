@@ -27,3 +27,7 @@ To be absolutely clear: **no source code was copied from any of the tools listed
 ## License
 
 This project is licensed under the MIT License — see the `LICENSE` file for details.
+
+## AI Assistance
+
+This project's documentation and some code structure were developed with the aid of AI tools. All code was reviewed, tested, and approved by Joshua-1248 before inclusion.
