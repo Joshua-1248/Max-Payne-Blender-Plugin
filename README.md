@@ -1,12 +1,10 @@
 # Max Payne Level Tools – Blender Plugin
 
-A Blender plugin for importing data from **Max Payne** and **Max Payne 2**, including **LVL**, **LDB**, **KFS**, **KF2**, and **SKD** files.
+A Blender add-on plugin for importing data from **Max Payne** and **Max Payne 2**, including **LVL**, **LDB**, **KFS**, **KF2**, and **SKD** files.
 
 > **🚧 Work in Progress:** LVL import is currently **unfinished** and not yet functional. All other formats (LDB, KFS, KF2, SKD) are fully or partially supported as **importers only**. Exporters are not currently available.
 
-This plugin allows you to open Max Payne's proprietary file formats inside Blender to view and edit level geometry, animations, and skeletons.
-
-> **⚠️ Important:** This tool is designed to be used with the official **MaxED** level editor. You should only use MaxED if you have obtained it through a legitimate copy of *Max Payne* or *Max Payne 2*, or from an official source. Furthermore, you will need a legitimate copy of the game to test any levels you create.
+This plugin allows you to open Max Payne's proprietary file formats directly inside Blender to view and edit level geometry, animations, and skeletons.
 
 ---
 
@@ -39,7 +37,6 @@ This plugin allows you to open Max Payne's proprietary file formats inside Blend
 ## Requirements
 
 - **Blender 2.79 or 4.0+** – This plugin works with Blender 2.79 and has been tested with Blender 4.0. Other versions may work but are not officially tested.
-- **MaxED (Max Payne Level Editor)** – Required for opening certain files in the game. You should only use MaxED if obtained from a legitimate source.
 - **Python 3.x** – Included with Blender.
 
 ---
