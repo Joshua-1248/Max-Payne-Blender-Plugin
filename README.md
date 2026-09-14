@@ -24,7 +24,7 @@ This plugin allows you to open Max Payne's proprietary file formats directly ins
 
 ## Features
 
-- **Import LVL files** — 🚧 Currently **unfinished**; coming soon.
+- **Import LVL files** — 🚧 Currently **unfinished**.
 - **Import LDB files** – Load compiled Max Payne and Max Payne 2 level geometry and object data into Blender. ✅
 - **Import KFS/KF2 animations** – Load character and object animations for preview or editing (both games). ✅
 - **Import SKD skeletons** – Load character skeleton rigs for animation work (both games). ✅
